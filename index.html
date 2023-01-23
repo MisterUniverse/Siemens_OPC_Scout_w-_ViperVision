@@ -10,11 +10,11 @@
         When you first open OPC Scout, located in the "Server Explorer" section you should see a list of "COM" servers 
         and a list of "UA" servers. In the "COM" server section you will need to expand the "Local COM server" option.
     </p>
-    <img src="LocalCOM.PNG" />
+    <img src="images/LocalCOM.PNG" />
     <p>
         After expanding the "Local COM server" menu, a list of local OPC/COM servers should appear if the servers are currently running.
     </p>
-    <img src="ServerList.PNG"/>
+    <img src="images/ServerList.PNG"/>
     <p>From that list we are using two servers. Those are as follows:</p>
     <ul>
         <li>OPC.SimaticNET</li>
@@ -24,9 +24,9 @@
         Using OPC Scout we can test communication of these servers via Siemens Mechanisms.
         First we will start by expanding the "OPC.SimaticNET" server menu and finding the directory labeled "\PNIO:".
     </p>
-    <img src="PNIO.PNG" alt="">
+    <img src="images/PNIO.PNG" alt="">
     <p>Once the "\PNIO:" directory is found expand it. Then expand the "ctrl1" directory and then the "aliases" directory.</p>
-    <img src="taglist.PNG" alt="">
+    <img src="images/taglist.PNG" alt="">
     <p>
         From here you will notice a list of tags that have been aliased to familiar names. 
         We are now going to set up a "DA view" for testing and viewing the results.
@@ -40,12 +40,12 @@
         <li>
             From our OPC server that is open in the Server Explorer, select one of the aliased tag names, 
             like "Injection_Number", and drag/drop it down to the empty "DA view 1" project tab.
-            <img src="step2.PNG" alt="">
+            <img src="images/step2.PNG" alt="">
         </li>
         <li>
             Now that we have a tag selected in our new "DA view" project we can attempt to Read/Write or Generate/Monitor 
             the data exchange on that server. Try reading data from the server by clicking the "Read" button.
-            <img src="result.PNG" alt="">
+            <img src="images/result.PNG" alt="">
         </li>
     </ol>
     <p>
